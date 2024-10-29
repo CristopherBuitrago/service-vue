@@ -35,12 +35,16 @@
     height: 75px;
     padding: 20px;
     list-style-type: none;
-  }
+  
+    li{
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      color: $red;
+    }
 
-  .post-list li{
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    color: $red;
+    li:hover{
+      background-color: darken(#ccc, 10%);
+    }
   }
 </style>
